@@ -12,7 +12,7 @@ import (
   "mime/multipart"
   "encoding/json"
   "wxcrm/pkg/common"
-  "wxcrm/pkg/common/log"
+  "github.com/bamboer/log"
 
 )
 
@@ -54,9 +54,6 @@ type WX struct{
 
 const (
   WXTokenName   = "wxtoken"
-  JSTicketName  = "jsticket"
-  WXContactTokenName = "contactoken"
-  // YYTokenName   = "yytoken"
   TokenTTL    = "7200"
 )
 

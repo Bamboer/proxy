@@ -2,7 +2,7 @@ package main
 
 import (
 	"wxcrm/pkg/common"
-	"wxcrm/pkg/common/log"
+	"github.com/bamboer/log"
 	"wxcrm/pkg/router"
 )
 

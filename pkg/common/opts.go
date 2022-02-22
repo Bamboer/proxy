@@ -2,7 +2,7 @@ package common
 import (
         "gopkg.in/ini.v1"
         "os"
-        "wxcrm/pkg/common/log"
+        "github.com/bamboer/log"
         "github.com/jpillora/opts"
 )
 

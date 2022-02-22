@@ -2,7 +2,7 @@ package common
 
 import (
   "encoding/json"
-  "wikiproxy/pkg/common/log"
+  "github.com/bamboer/log"
   "github.com/gomodule/redigo/redis"
 )
 
